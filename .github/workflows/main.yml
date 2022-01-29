@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: foo
-        uses: squidmin/hello-world-composite-action@v1.9
+        uses: capybaramancer/hello-world-composite-action@v1.9
         with:
           who-to-greet: 'Capybara the Octocapybara'
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
