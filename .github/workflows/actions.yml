@@ -22,7 +22,7 @@ jobs:
           ls -la
       - name: Simple JS Action
         id: greet
-        uses: squidmin/hello-world-javascript-action@main
+        uses: capybaramancer/hello-world-javascript-action@main
         with:
           who-to-greet: Capybara
       - name: Log Greeting Time
