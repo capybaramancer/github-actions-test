@@ -16,7 +16,7 @@ jobs:
           print(platform.processor())
         shell: python
   run-windows-commands:
-    runs-on: self-hosted
+    runs-on: windows-latest
     needs: ["run-shell-command"]
     steps:
       - name: Directory Powershell
